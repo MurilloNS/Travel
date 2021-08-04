@@ -1,0 +1,247 @@
+body{
+    margin: 0;
+    font-family: Arial;
+}
+.main{
+    margin-bottom: 5%;
+}
+/* Daqui pra baixo é o cabeçario */
+.cabecalho{
+    height: 60px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color: #00008B;
+}
+.cabecalho svg{
+    color: white;
+    font-size: 40px;
+    padding-top: 10px;
+    padding-left: 10%;
+    margin-right: 18%;
+}
+.links{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.links a{
+   padding-left: 70px;
+   font-weight: bold;
+   font-size: 15px;
+   text-decoration: none;
+   color: white;
+}
+#one:hover{
+    color: #C0C0C0;
+    transition: 0.3s;
+}
+#two:hover{
+    color: #C0C0C0;
+    transition: 0.3s;
+}
+#three:hover{
+    color: #C0C0C0;
+    transition: 0.3s;
+}
+#four:hover{
+    color: #C0C0C0;
+    transition: 0.3s;
+}
+
+/* Daqui pra baixo é o corpo da página */
+.corpo{
+    margin-left: 10%;
+    margin-top: 4%;
+    max-width: 80%;
+}
+.titles{
+    font-size: 35px;
+}
+.subtitles{
+    font-size: 24px;
+    padding-top: 1%;
+}
+.row-imgs{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.sinopse{
+    color: #696969;
+    font-weight: bold;
+    overflow: hidden;
+}
+.sinopse a{
+    color: tomato;
+    font-weight: bold;
+}
+.images{
+    width: 285px;
+    height: 80%;
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.images:hover{
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+.capsula p{
+    font-weight: bold;
+    font-size: 17px;
+    text-decoration: none;
+}
+
+/* Daqui para baixo é o Rodapé */
+footer{
+    width: 100%;
+    margin: 0;
+    background-color: #00008B;
+}
+.footer-text{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-top: 1%;
+}
+.footer-text a{
+    font-size: 17px;
+    color: white;
+    padding-left: 30px;
+    text-decoration: none;
+}
+.icons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 1%;
+}
+.icons svg{
+    color: white;
+    font-size: 30px;
+    padding-left: 30px;
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.icons a{
+    font-size: 30px;
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+#icon1:hover {
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+#icon2:hover {
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+#icon3:hover {
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+#icon4:hover {
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+#icon5:hover {
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+@media (max-width:1880px){
+    .images{
+        width: 260px;
+        height: 80%;
+    }
+}
+@media (max-width:1680px){
+    .images{
+        width: 240px;
+        height: 80%;
+    }
+}
+@media (max-width:1524px){
+    .images{
+        width: 220px;
+        height: 80%;
+    }
+}
+@media (max-width:1401px){
+    .images{
+        width: 190px;
+        height: 80%;
+    }
+}
+@media (max-width:1213px){
+    .images{
+        width: 170px;
+        height: 80%;
+    }
+}
+@media (max-width:1089px){
+    .images{
+        width: 150px;
+        height: 80%;
+    }
+}
+@media (max-width:967px){
+    .images{
+        width: 130px;
+        height: 80%;
+    }
+    .links a{
+        padding-left: 40px;
+    }
+}
+@media (max-width:890px){
+    .titles{
+        font-size: 25px;
+        padding-top: 1%;
+    }
+    .subtitles{
+        font-size: 18px;
+        padding-top: 1%;
+    }
+    .row-imgs{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .images{
+        width: 100%;
+        height: auto;
+    }
+    .links a{
+        padding-left: 40px;
+    }
+    .sinopse{
+        padding-bottom: 3%;
+    }
+    .capsula p{
+        padding-top: 2%;
+    }
+}
+@media (max-width:760px){
+    .links a{
+        padding-left: 20px;
+    }
+}
+@media (max-width:646px){
+    .links a{
+        padding-left: 10px;
+    }
+}
